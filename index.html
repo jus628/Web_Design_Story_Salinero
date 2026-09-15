@@ -3,97 +3,182 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/rpo1grp.css"> 
     <link rel="stylesheet" href="style.css">
     <title>Web Design Story Salinero</title>
   </head>
 
   <body>
-    <header> // Add logo and menu bar too later
-      <div class="title"> // Will be font Ogg, bold, 12% letter spacing
-      <h1>How the Moon Became Beautiful</h1>
-      <h3 class="subtitle">a short fable</h3> // Will be font Ogg, light, 0% letter spacing
-    </div>
+    <header class="site-header"> <!-- Add logo and menu bar too later -->
+      <img src="images/logo.png" class="logo" alt="Moon Logo">
+      
+      <div class="title"> <!-- Will be font Ogg, bold, 12% letter spacing -->
+        <h1>How the Moon Became Beautiful</h1>
+        <h3 class="subtitle">a short fable</h3> <!--  Will be font Ogg, light, 0% letter spacing -->
+      </div>
+
     </header>
 
-    // p will be neue Haas Grotesk, 35 extra light, 8% letter spacing, 22 line height
-    // blockquotes will be Adobe Caslon Pro, semibold italic, -2% letter spacing, 27 line height
-    <main>
+    <!-- p will be neue Haas Grotesk, 35 extra light, 8% letter spacing, 22 line height -->
+    <!-- blockquotes will be Adobe Caslon Pro, semibold italic, -2% letter spacing, 27 line height -->
+    <main class="story">
       <!-- SECTION 1 -->
-      <section class="story intro">
-        <p>The Moon is very beautiful with his round, bright face which shines with soft and gentle light on all the world of man. But once there was a time when he was not so beautiful as he is now. Six thousand years ago the face of the Moon became changed in a single night. Before that time his face had been so dark and gloomy that no one liked to look at him, and for this reason he was always very sad.</p>
+      <section class="story_intro">
+        
+        <div class="intro_img">
+          <img src="images/intro.png" alt="Moon with upset face, surrounded by clouds">
+        </div>
+
+        <div class="intro_text">
+          <p>The Moon is very beautiful with his round, bright face which shines with soft and gentle light on all the world of man. But once there was a time when he was not so beautiful as he is now. Six thousand years ago the face of the Moon became changed in a single night. Before that time his face had been so dark and gloomy that no one liked to look at him, and for this reason he was always very sad.</p>
+        </div>
+
       </section>
+
 
       <!-- SECTION 2 -->
-      <section class="stars talk ">
-        <p>One day he complained to the flowers and to the stars — for they were the only things that would ever look in his face.</p>
+      <section class="stars_talk">
+        
+        <div class="stars_text">
+          <p class="stars_intro">One day he complained to the flowers and to the stars — for they were the only things that would ever look in his face.</p>
+          <p class="he_said">He said,</p>
+          <blockquote class="moon_quote">
+            "I do not like to be the Moon. I wish I were a star or a flower. If I were a star, even the smallest one, some great general would care for me; but alas! I am only the Moon and no one likes me. If I could only be a flower and grow in a garden where the beautiful earth women come, they would place me in their hair and praise my fragrance and beauty. Or, if I could even grow in the wilderness where no one could see, the birds would surely come and sing sweet songs for me. But I am only the Moon and no one honors me."
+          </blockquote>
+        </div>
 
-        <p>He said,</p>
-        <blockquote>
-          "I do not like to be the Moon. I wish I were a star or a flower. If I were a star, even the smallest one, some great general would care for me; but alas! I am only the Moon and no one likes me. If I could only be a flower and grow in a garden where the beautiful earth women come, they would place me in their hair and praise my fragrance and beauty. Or, if I could even grow in the wilderness where no one could see, the birds would surely come and sing sweet songs for me. But I am only the Moon and no one honors me."
-        </blockquote>
+        <div class="stars_img">
+          <img src="images/moon_talks.png" alt="Sad Moon surrounded by stars">
+        </div>
 
-        <p>The stars answered and said,</p>
-        <blockquote>
-          "We can not help you. We were born here and we can not leave our places. We never had any one to help us. We do our duty, we work all the day and twinkle in the dark night to make the skies more beautiful. — But that is all we can do,"
-        </blockquote>
-        <p>they added, as they smiled coldly at the sorrowful Moon.</p>
+        <div class="filler_img">
+          <img src="images/filler.png" alt="Clouds with stars and flower petals">
+        </div>
+
+        <div class="stars_response_text">
+          <p class="stars_answered">The stars answered and said,</p>
+          <blockquote class="stars_quote">
+            "We can not help you. We were born here and we can not leave our places. We never had any one to help us. We do our duty, we work all the day and twinkle in the dark night to make the skies more beautiful. — But that is all we can do,"
+          </blockquote>
+          <p class="they_added">they added, as they smiled coldly at the sorrowful Moon.</p>
+        </div>
+        
+        <div class="stars_response_img">
+          <img src="images/stars_talk.png" alt="Darker clouds filled with shining stars">
+        </div>
+
       </section>
+
 
       <!-- SECTION 3 -->
-      <section class="flowers talk">
-        <p>Then the flowers smiled sweetly and said,</p>
-        <blockquote>
-          "We do not know how we can help you. We live always in one place — in a garden near the most beautiful maiden in all the world. As she is kind to every one in trouble we will tell her about you. We love her very much and she loves us. Her name is Tseh-N'io."
-        </blockquote>
+      <section class="flowers_talk">
+
+        <div class="flowers_img">
+          <img src="images/flowers_talk.png" alt="Moon surrounded by flowers">
+        </div>
+
+        <div class="flowers_text">
+          <p class="flowers_intro">Then the flowers smiled sweetly and said,</p>
+          <blockquote class="flowers_quote">
+            "We do not know how we can help you. We live always in one place—in a garden near the most beautiful maiden in all the world. As she is kind to every one in trouble we will tell her about you. We love her very much and she loves us. Her name is Tseh-N'io."
+          </blockquote>
+        </div>
+
       </section>
+
 
       <!-- SECTION 4 -->
-      <section class="Tseh-N'io intro">
-        <p>Still the Moon was sad. So one evening he went to see the beautiful maiden Tseh-N'io. And when he saw her he loved her at once. He said,</p>
-        <blockquote>
-          "Your face is very beautiful. I wish that you would come to me, and that my face would be as your face. Your motions are gentle and full of grace. Come with me and we will be as one—and perfect. I know that even the worst people in all the world would have only to look at you and they would love you. Tell me, how did you come to be so beautiful?"
-        </blockquote>
+      <section class="tseh_intro">
 
-        <blockquote>
-          "I have always lived with those who were gentle and happy, and I believe that is the cause of beauty and goodness,"
-        </blockquote>
-        <p>answered Tseh-N'io.</p>
+        <div class="tseh_intro_text">
+          <p class="tseh_intro_paragraph">Still the Moon was sad. So one evening he went to see the beautiful maiden Tseh-N'io. And when he saw her he loved her at once. He said,</p>
+          <blockquote class="tseh_quote">
+            "Your face is very beautiful. I wish that you would come to me, and that my face would be as your face. Your motions are gentle and full of grace. Come with me and we will be as one—and perfect. I know that even the worst people in all the world would have only to look at you and they would love you. Tell me, how did you come to be so beautiful?"
+          </blockquote>
+        </div>
+
+        <div class="tseh_intro_img">
+          <img src="images/tseh_img.png" alt="Tseh-N'io looking up, surrounded by flowers">
+        </div>
+
+        <div class="filler2_img">
+          <img src="images/filler2.png" alt="flowers and loose petals">
+        </div>
+
+        <div class="tseh_response_text">
+          <blockquote class="tseh_response_quote">
+            "I have always lived with those who were gentle and happy, and I believe that is the cause of beauty and goodness,"
+          </blockquote>
+          <p class="tseh_answered">answered Tseh-N'io.</p>
+        </div>
+
       </section>
+
 
       <!-- SECTION 5 -->
-      <section class="moon visits">
-        <p>And so the Moon went every night to see the maiden. He knocked on her window, and she came</p>
-        <p>And when he saw how gentle and beautiful she was, his love grew stronger, and he wished more and more to be with her always.</p>
+      <section class="moon_visits">
+
+        <div class="visits_text">
+          <p class="visits_intro">And so the Moon went every night to see the maiden. He knocked on her window, and she came.</p>
+          <p class="visits_response">And when he saw how gentle and beautiful she was, his love grew stronger, and he wished more and more to be with her always.</p>
+        </div>
+
+        <div class="visits_img">
+          <img src="images/moon_tseh_img.png" alt="Tseh-N'io sitting near a flower-covered window">
+        </div>
+
       </section>
+
 
       <!-- SECTION 6 -->
-      <section class="asking mother">
-        <p>One day Tseh-N'io said to her mother,</p>
-        <blockquote>
-          "I should like to go to the Moon and live always with him. Will you allow me to go?"
-        </blockquote>
-        <p>Her mother thought so little of the question that she made no reply, and Tseh-N'io told her friends that she was going to be the Moon's bride.</p>
+      <section class="asking_mother">
+        
+        <div class="asking_text">
+          <p class="mother_intro">One day Tseh-N'io said to her mother,</p>
+          <blockquote class="mother_quote">
+            "I should like to go to the Moon and live always with him. Will you allow me to go?"
+          </blockquote>
+          <p class="mother_response">Her mother thought so little of the question that she made no reply, and Tseh-N'io told her friends that she was going to be the Moon's bride.</p>
+        </div>
+
       </section>
-      
+
+
       <!-- SECTION 7 -->
       <section class="disappearance">
-        <p>In a few days she was gone. Her mother searched everywhere but could not find her. And one of Tseh-N'io's friends said,</p>
-        <blockquote>
-          "She has gone with the Moon, for he asked her many times."
-        </blockquote>
-        <p>A year and a year passed by and Tseh-N'io, the gentle and beautiful earth maiden, did not return.</p>
 
-        <p>Then the people said,</p>
-        <blockquote>
-          "She has gone forever. She is with the Moon."
-        </blockquote>
+        <div class="window_img">
+          <img src="images/window.png" alt="Flower-covered window and garden">
+        </div>
+
+        <div class="disappearance_text">
+          <p class="disappearance_intro">In a few days she was gone. Her mother searched everywhere but could not find her. And one of Tseh-N'io's friends said,</p>
+          <blockquote class="gone_quote">
+            "She has gone with the Moon, for he asked her many times."
+          </blockquote>
+          <p class="year_passed">A year and a year passed by and Tseh-N'io, the gentle and beautiful earth maiden, did not return.</p>
+          <p class="people_said">Then the people said,</p>
+          <blockquote class="forever_quote">
+            "She has gone forever. She is with the Moon."
+          </blockquote>
+        </div>
+
       </section>
 
+
       <!-- SECTION 8 -->
-       <section class="ending">
-          <p>The face of the Moon is very beautiful now. It is happy and bright and gives a soft, gentle light to all the world. And there are those who say that the Moon is now like Tseh-N'io, who was once the most beautiful of all earth maidens.</p>
-          <h2>The End.</h2> // Will be font Ogg, light, 0% letter spacing
-       </section>
+      <section class="ending">
+
+        <div class="ending_img">
+          <img src="images/ending.png" alt="Beautiful glowing Moon surrounded by clouds and stars">
+        </div>
+
+        <div class="ending_text">
+          <p class="ending_paragraph">The face of the Moon is very beautiful now. It is happy and bright and gives a soft, gentle light to all the world. And there are those who say that the Moon is now like Tseh-N'io, who was once the most beautiful of all earth maidens.</p>
+          <h2 class="the_end">The End.</h2>
+        </div>
+
+      </section>
     </main>
   </body>
 </html>

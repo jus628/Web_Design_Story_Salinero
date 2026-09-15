@@ -1,0 +1,671 @@
+/* OVERALL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFE8DC;
+  color: #000000;
+}
+
+p {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.08em;
+}
+
+blockquote {
+  font-family: "adobe-caslon-pro", serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* HEADER */
+.site-header {
+  width: 100%;
+  max-width: 1440px;
+  height: 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  align-items: start;
+  position: relative;
+  border-bottom: 1px solid #000000;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  margin-left: 32px;
+  margin-top: 39px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-family: "Ogg", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 84px;
+  letter-spacing: 0.12em;
+  margin-top: 27px;
+}
+
+.subtitle {
+  font-family: "Ogg", serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 46px;
+}
+
+
+/* STORY */
+.story {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: url("images/background.png");
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: repeat-y;
+}
+
+
+/* -------- SECTION 1 -------- */
+.story_intro {
+  min-height: 650px;
+  position: relative;
+}
+
+.intro_img {
+  width: 748px;
+  position: absolute;
+  left: 39px;
+  top: 28px;
+}
+
+.intro_text {
+  width: 506px;
+  position: absolute;
+  right: 105px;
+  top: 200px;
+}
+
+.intro_text p {
+  font-family: "Ogg", serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+
+/* -------- SECTION 2 -------- */
+.stars_talk {
+  min-height: 1500px;
+  position: relative;
+}
+
+
+/* FIRST PARAGRAPH */
+.stars_intro {
+  width: 437px;
+  position: absolute;
+  right: 105px;
+  top: 0;
+  text-align: right;
+}
+
+
+/* HE SAID */
+.he_said {
+  width: 190px;
+  position: absolute;
+  left: 103px;
+  top: 215px;
+}
+
+
+/* MOON QUOTE */
+.moon_quote {
+  width: 534px;
+  position: absolute;
+  left: 155px;
+  top: 275px;
+  text-align: center;
+}
+
+
+/* SAD MOON IMAGE */
+.stars_img {
+  width: 762px;
+  position: absolute;
+  left: 689px;
+  top: 180px;
+}
+
+
+/* CLOUD AND PETAL FILLER */
+.filler_img {
+  width: 650px;
+  position: absolute;
+  left: -83px;
+  top: 520px;
+}
+
+
+/* DARK STAR CLOUDS */
+.stars_response_img {
+  width: 900px;
+  position: absolute;
+  left: 520px;
+  top: 775px;
+}
+
+
+/* THE STARS ANSWERED */
+.stars_answered {
+  width: 239px;
+  position: absolute;
+  left: 105px;
+  top: 900px;
+}
+
+
+/* STAR RESPONSE QUOTE */
+.stars_quote {
+  width: 374px;
+  position: absolute;
+  left: 105px;
+  top: 1040px;
+}
+
+
+/* THEY ADDED */
+.they_added {
+  width: 334px;
+  position: absolute;
+  left: 225px;
+  top: 1270px;
+  text-align: right;
+}
+
+/* -------- SECTION 3 -------- */
+.flowers_talk {
+  min-height: 850px;
+  position: relative;
+}
+
+
+/* FLOWER IMAGE */
+.flowers_img {
+  width: 1128px;
+  position: absolute;
+  left: 3px;
+  top: 20px;
+}
+
+
+/* FLOWERS INTRO */
+.flowers_intro {
+  width: 428px;
+  position: absolute;
+  right: 102px;
+  top: 20px;
+  text-align: right;
+}
+
+
+/* FLOWERS QUOTE */
+.flowers_quote {
+  width: 554px;
+  position: absolute;
+  right: 105px;
+  top: 125px;
+  text-align: right;
+}
+
+
+/* -------- SECTION 4 -------- */
+.tseh_intro {
+  min-height: 1200px;
+  position: relative;
+}
+
+
+/* TSEH INTRO PARAGRAPH */
+.tseh_intro_paragraph {
+  width: 582px;
+  position: absolute;
+  left: 105px;
+  top: 20px;
+}
+
+
+/* MOON TALKING TO TSEH-N'IO */
+.tseh_quote {
+  width: 651px;
+  position: absolute;
+  right: 106px;
+  top: 130px;
+  text-align: right;
+}
+
+
+/* TSEH-N'IO IMAGE */
+.tseh_intro_img {
+  width: 1208px;
+  position: absolute;
+  left: 244px;
+  top: 250px;
+}
+
+
+/* SMALL FLOWER FILLER */
+.filler2_img {
+  width: 517px;
+  position: absolute;
+  left: -87px;
+  top: 760px;
+}
+
+
+/* TSEH RESPONSE QUOTE */
+.tseh_response_quote {
+  width: 413px;
+  position: absolute;
+  left: 146px;
+  top: 590px;
+  text-align: center;
+}
+
+
+/* ANSWERED TSEH-N'IO */
+.tseh_answered {
+  width: 290px;
+  position: absolute;
+  left: 381px;
+  top: 730px;
+}
+
+/* -------- SECTION 5 -------- */
+.moon_visits {
+  min-height: 1200px;
+  position: relative;
+}
+
+
+/* FIRST PARAGRAPH */
+.visits_intro {
+  width: 341px;
+  position: absolute;
+  left: 105px;
+  top: 60px;
+}
+
+
+/* MOON AND TSEH-N'IO IMAGE */
+.visits_img {
+  width: 1440px;
+  position: absolute;
+  left: 0;
+  top: 250px;
+}
+
+
+/* SECOND PARAGRAPH */
+.visits_response {
+  width: 458px;
+  position: absolute;
+  right: 105px;
+  top: 1150px;
+  text-align: right;
+}
+
+
+/* -------- SECTION 6 -------- */
+.asking_mother {
+  min-height: 650px;
+  position: relative;
+}
+
+
+/* ONE DAY TSEH-N'IO SAID */
+.mother_intro {
+  width: 300px;
+  position: absolute;
+  left: 105px;
+  top: 200px;
+}
+
+
+/* TSEH-N'IO QUOTE */
+.mother_quote {
+  width: 410px;
+  position: absolute;
+  left: 480px;
+  top: 280px;
+  text-align: center;
+}
+
+
+/* HER MOTHER THOUGHT */
+.mother_response {
+  width: 500px;
+  position: absolute;
+  right: 105px;
+  top: 400px;
+  text-align: right;
+}
+
+
+/* -------- SECTION 7 -------- */
+.disappearance {
+  min-height: 1400px;
+  position: relative;
+}
+
+
+/* WINDOW IMAGE */
+.window_img {
+  width: 1122px;
+  position: absolute;
+  left: 295px;
+  top: 0;
+}
+
+
+/* FIRST PARAGRAPH */
+.disappearance_intro {
+  width: 507px;
+  position: absolute;
+  left: 105px;
+  top: 140px;
+}
+
+
+/* FIRST QUOTE */
+.gone_quote {
+  width: 327px;
+  position: absolute;
+  left: 105px;
+  top: 330px;
+}
+
+
+/* A YEAR AND A YEAR PASSED */
+.year_passed {
+  width: 424px;
+  position: absolute;
+  left: 105px;
+  top: 500px;
+}
+
+
+/* THEN THE PEOPLE SAID */
+.people_said {
+  width: 571px;
+  position: absolute;
+  left: 425px;
+  top: 1030px;
+  text-align: center;
+}
+
+
+/* FINAL QUOTE */
+.forever_quote {
+  width: 413px;
+  position: absolute;
+  left: 513px;
+  top: 1090px;
+  text-align: center;
+}
+
+
+/* -------- SECTION 8 -------- */
+.ending {
+  min-height: 1200px;
+  position: relative;
+}
+
+
+/* ENDING IMAGE */
+.ending_img {
+  width: 1509px;
+  position: absolute;
+  left: -35px;
+  top: 0;
+}
+
+
+/* ENDING PARAGRAPH */
+.ending_paragraph {
+  width: 977px;
+  position: absolute;
+  left: 231px;
+  top: 920px;
+  text-align: center;
+}
+
+
+/* THE END */
+.the_end {
+  width: 579px;
+  position: absolute;
+  right: 141px;
+  top: 1040px;
+  font-family: "ogg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  line-height: 115px;
+  text-align: right;
+}
+
+/* -------- TABLET -------- */
+@media screen and (max-width: 1000px) {
+
+  /* HEADER */
+  .site-header {
+    height: 170px;
+    grid-template-columns: 90px 1fr 90px;
+  }
+
+  .logo {
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+
+  .title h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 30px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+
+  /* TYPE */
+  p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  blockquote {
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+
+  /* SCALE THE STORY */
+  .story {
+    width: 100%;
+  }
+
+}
+
+/* -------- MOBILE -------- */
+
+@media screen and (max-width: 600px) {
+
+  /* HEADER */
+
+  .site-header {
+    height: auto;
+    min-height: 150px;
+    display: block;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 45px;
+    margin: 0 0 10px 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 27px;
+    line-height: 36px;
+    margin-top: 0;
+    letter-spacing: 0.08em;
+  }
+
+  .subtitle {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+
+  /* TYPE */
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  blockquote {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+
+  /* STORY */
+
+  .story {
+    width: 100%;
+  }
+
+
+  /* SECTION 1 */
+
+  .story_intro {
+    min-height: auto;
+    padding: 40px 25px 80px;
+  }
+
+  .intro_img {
+    width: 100%;
+    position: static;
+  }
+
+  .intro_text {
+    width: 100%;
+    position: static;
+    margin-top: 30px;
+  }
+
+  .intro_text p {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+
+  /* SECTION 2 */
+
+  .stars_talk {
+    min-height: auto;
+    padding: 0 25px 80px;
+  }
+
+  .stars_intro {
+    width: 80%;
+    position: static;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+
+  .he_said {
+    width: 100%;
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .moon_quote {
+    width: 90%;
+    position: static;
+    margin: 0 auto 20px;
+  }
+
+  .stars_img {
+    width: 100%;
+    position: static;
+    margin-left: auto;
+  }
+
+  .filler_img {
+    width: 60%;
+    position: static;
+    margin: 10px 0 50px -25px;
+  }
+
+  .stars_answered {
+    width: 70%;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .stars_quote {
+    width: 75%;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .they_added {
+    width: 70%;
+    position: static;
+    margin: 0 0 20px auto;
+  }
+
+  .stars_response_img {
+    width: 100%;
+    position: static;
+    margin-left: auto;
+  }
+
+}
