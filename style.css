@@ -5,9 +5,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #EFE8DC;
   color: #000000;
+  cursor: url("images/cursor.png"), auto;
 }
 
 p {
@@ -20,8 +25,8 @@ p {
 }
 
 blockquote {
-  font-family: "adobe-caslon-pro", serif;
-  font-weight: 600;
+  font-family: "Ogg", serif;
+  font-weight: 300;
   font-style: italic;
   font-size: 22px;
   line-height: 27px;
@@ -151,7 +156,7 @@ img {
   position: absolute;
   left: 155px;
   top: 275px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -473,12 +478,39 @@ img {
   position: absolute;
   right: 141px;
   top: 1040px;
-  font-family: "ogg", sans-serif;
+  font-family: "Ogg", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 75px;
   line-height: 115px;
   text-align: right;
+}
+
+/* -------- FOOTER -------- */
+
+.site-footer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 105px 40px;
+  border-top: 1px solid #000000;
+  text-align: center;
+}
+
+.site-footer p {
+  font-family: "Ogg", serif;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.site-footer a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.ai-credit {
+  margin-top: 20px;
 }
 
 /* -------- TABLET -------- */
