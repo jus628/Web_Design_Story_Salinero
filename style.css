@@ -13,6 +13,11 @@ body {
   background-color: #EFE8DC;
   color: #000000;
   cursor: url("images/cursor.png"), auto;
+  background-image: url("images/background.png");
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
 }
 
 p {
@@ -26,11 +31,11 @@ p {
 
 blockquote {
   font-family: "Ogg", serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 27px;
-  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0em;
 }
 
 img {
@@ -51,6 +56,7 @@ img {
   align-items: start;
   position: relative;
   border-bottom: 1px solid #000000;
+  background-color: #EFE8DC;
 }
 
 .logo {
@@ -87,10 +93,6 @@ img {
   max-width: 1440px;
   margin: 0 auto;
   overflow: hidden;
-  background-image: url("images/background.png");
-  background-size: 100% auto;
-  background-position: top center;
-  background-repeat: repeat-y;
 }
 
 
@@ -495,6 +497,7 @@ img {
   padding: 60px 105px 40px;
   border-top: 1px solid #000000;
   text-align: center;
+  background-color: #EFE8DC;
 }
 
 .site-footer p {
@@ -509,71 +512,345 @@ img {
   text-decoration: underline;
 }
 
+.story-link {
+  margin-top: 11px;
+}
+
 .ai-credit {
   margin-top: 20px;
 }
 
-/* -------- TABLET -------- */
+
+
+/* ---------------- TABLET ---------------- */
+
 @media screen and (max-width: 1000px) {
 
   /* HEADER */
   .site-header {
-    height: 170px;
-    grid-template-columns: 90px 1fr 90px;
+    height: 125px;
+    grid-template-columns: 70px 1fr 70px;
   }
 
   .logo {
-    width: 60px;
+    width: 50px;
     margin-left: 20px;
-    margin-top: 35px;
+    margin-top: 22px;
   }
 
   .title h1 {
-    font-size: 40px;
-    line-height: 55px;
-    margin-top: 30px;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 18px;
+    letter-spacing: 0.08em;
   }
 
   .subtitle {
-    font-size: 24px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
 
   /* TYPE */
   p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 23px;
   }
 
   blockquote {
-    font-size: 19px;
-    line-height: 25px;
+    font-size: 17px;
+    line-height: 23px;
   }
 
 
-  /* SCALE THE STORY */
-  .story {
+  /* SECTION 1 */
+  .story_intro {
+    min-height: 550px;
+  }
+
+  .intro_img {
+    width: 55%;
+    left: 2%;
+    top: 40px;
+  }
+
+  .intro_text {
+    width: 38%;
+    right: 5%;
+    top: 150px;
+  }
+
+  .intro_text p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+
+  /* SECTION 2 */
+  .stars_talk {
+    min-height: 1250px;
+  }
+
+  .stars_intro {
+    width: 35%;
+    right: 6%;
+    top: 0;
+  }
+
+  .he_said {
+    width: 15%;
+    left: 7%;
+    top: 150px;
+  }
+
+  .moon_quote {
+    width: 330px;
+    left: 90px;
+    top: 200px;
+  }
+
+  .stars_img {
+    width: 53%;
+    left: 47%;
+    top: 170px;
+  }
+
+  .filler_img {
+    width: 45%;
+    left: -5%;
+    top: 480px;
+  }
+
+  .stars_response_img {
+    width: 63%;
+    left: 37%;
+    top: 650px;
+  }
+
+  .stars_answered {
+    width: 22%;
+    left: 7%;
+    top: 750px;
+  }
+
+  .stars_quote {
+    width: 28%;
+    left: 7%;
+    top: 850px;
+  }
+
+  .they_added {
+    width: 27%;
+    left: 15%;
+    top: 1070px;
+  }
+
+
+  /* SECTION 3 */
+  .flowers_talk {
+    min-height: 700px;
+  }
+
+  .flowers_img {
+    width: 75%;
+    left: 0;
+    top: 30px;
+  }
+
+  .flowers_intro {
+    width: 34%;
+    right: 6%;
+    top: 20px;
+  }
+
+  .flowers_quote {
+    width: 39%;
+    right: 6%;
+    top: 115px;
+  }
+
+
+  /* SECTION 4 */
+  .tseh_intro {
+    min-height: 1000px;
+    margin-top: -120px;
+  }
+
+  .tseh_intro_paragraph {
+    width: 40%;
+    left: 7%;
+    top: 20px;
+  }
+
+  .tseh_quote {
+    width: 500px;
+    right: 70px;
+  }
+
+  .tseh_intro_img {
+    width: 82%;
+    left: 18%;
+    top: 270px;
+  }
+
+  .filler2_img {
+    width: 36%;
+    left: -5%;
+    top: 650px;
+  }
+
+  .tseh_response_quote {
+    width: 32%;
+    left: 10%;
+    top: 480px;
+  }
+
+  .tseh_answered {
+    width: 25%;
+    left: 25%;
+    top: 600px;
+  }
+
+
+  /* SECTION 5 */
+  .moon_visits {
+    min-height: 1000px;
+  }
+
+  .visits_intro {
+    width: 28%;
+    left: 7%;
+    top: 50px;
+  }
+
+  .visits_img {
     width: 100%;
+    left: 0;
+    top: 220px;
   }
 
+  .visits_response {
+    width: 35%;
+    right: 7%;
+    top: 820px;
+  }
+
+
+  /* SECTION 6 */
+  .asking_mother {
+    min-height: 550px;
+  }
+
+  .mother_intro {
+    width: 25%;
+    left: 7%;
+    top: 130px;
+  }
+
+  .mother_quote {
+    width: 32%;
+    left: 34%;
+    top: 230px;
+  }
+
+  .mother_response {
+    width: 35%;
+    right: 7%;
+    top: 330px;
+  }
+
+
+  /* SECTION 7 */
+  .disappearance {
+    min-height: 1100px;
+  }
+
+  .window_img {
+    width: 78%;
+    left: 22%;
+    top: 0;
+  }
+
+  .disappearance_intro {
+    width: 36%;
+    left: 7%;
+    top: 110px;
+  }
+
+  .gone_quote {
+    width: 27%;
+    left: 7%;
+    top: 280px;
+  }
+
+  .year_passed {
+    width: 32%;
+    left: 7%;
+    top: 430px;
+  }
+
+  .people_said {
+    width: 40%;
+    left: 30%;
+    top: 820px;
+  }
+
+  .forever_quote {
+    width: 32%;
+    left: 34%;
+    top: 890px;
+  }
+
+
+  /* SECTION 8 */
+  .ending {
+    min-height: 620px;
+    position: relative;
+  }
+
+  .ending_img {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .ending_paragraph {
+    width: 68%;
+    left: 16%;
+    top: 475px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .the_end {
+    width: auto;
+    right: 10%;
+    top: 555px;
+    font-size: 43px;
+    line-height: 48px;
+  }
+
+  /* FOOTER */
+  .site-footer {
+    padding: 45px 60px 35px;
+  }
 }
 
-/* -------- MOBILE -------- */
+/* ---------------- MOBILE ---------------- */
 
 @media screen and (max-width: 600px) {
 
   /* HEADER */
-
   .site-header {
     height: auto;
-    min-height: 150px;
+    min-height: 125px;
     display: block;
-    padding: 20px;
+    padding: 18px 20px 15px;
   }
 
   .logo {
-    width: 45px;
+    width: 40px;
     margin: 0 0 10px 0;
   }
 
@@ -582,40 +859,37 @@ img {
   }
 
   .title h1 {
-    font-size: 27px;
-    line-height: 36px;
+    font-size: 25px;
+    line-height: 30px;
     margin-top: 0;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.05em;
   }
 
   .subtitle {
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 24px;
   }
 
 
   /* TYPE */
-
   p {
     font-size: 16px;
     line-height: 22px;
   }
 
   blockquote {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 
 
   /* STORY */
-
   .story {
     width: 100%;
   }
 
 
   /* SECTION 1 */
-
   .story_intro {
     min-height: auto;
     padding: 40px 25px 80px;
@@ -639,7 +913,6 @@ img {
 
 
   /* SECTION 2 */
-
   .stars_talk {
     min-height: auto;
     padding: 0 25px 80px;
@@ -700,4 +973,233 @@ img {
     margin-left: auto;
   }
 
+  /* SECTION 3 */
+  .flowers_talk {
+    min-height: auto;
+    padding: 20px 25px 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flowers_img {
+    width: 100%;
+    position: static;
+    order: 2;
+    margin-top: 20px;
+    transform: translateY(-30px);
+  }
+
+  .flowers_intro {
+    width: 80%;
+    position: static;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .flowers_quote {
+    width: 90%;
+    position: static;
+    margin: 20px 0 0 auto;
+    text-align: right;
+  }
+
+
+  /* SECTION 4 */
+  .tseh_intro {
+    min-height: auto;
+    padding: 30px 25px 80px;
+  }
+
+  .tseh_intro_paragraph {
+    width: 80%;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .tseh_quote {
+    width: 90%;
+    position: static;
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .tseh_intro_img {
+    width: calc(100% + 50px);
+    position: static;
+    margin: 30px -25px 0;
+  }
+
+  .filler2_img {
+    width: 45%;
+    position: static;
+    margin: -20px 0 10px -25px;
+  }
+
+  .tseh_response_quote {
+    width: 85%;
+    position: static;
+    margin: 20px 0 10px;
+    text-align: left;
+  }
+
+  .tseh_answered {
+    width: 75%;
+    position: static;
+    margin-left: 30px;
+    transform: translateX(200px);
+  }
+
+
+  /* SECTION 5 */
+
+  .moon_visits {
+    min-height: auto;
+    padding: 20px 25px 80px;
+  }
+
+  .visits_intro {
+    width: 75%;
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .visits_img {
+    width: calc(100% + 50px);
+    position: static;
+    margin-left: -25px;
+  }
+
+  .visits_response {
+    width: 80%;
+    position: static;
+    margin: 25px 0 0 auto;
+    text-align: right;
+  }
+
+
+  /* SECTION 6 */
+
+  .asking_mother {
+    min-height: auto;
+    padding: 30px 25px 90px;
+  }
+
+  .mother_intro {
+    width: 75%;
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .mother_quote {
+    width: 90%;
+    position: static;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  .mother_response {
+    width: 82%;
+    position: static;
+    margin-left: auto;
+    text-align: right;
+  }
+
+
+  /* SECTION 7 */
+
+  .disappearance {
+    min-height: auto;
+    padding: 20px 25px 80px;
+  }
+
+  .window_img {
+    width: calc(100% + 50px);
+    position: static;
+    margin: 0 -25px 25px;
+  }
+
+  .disappearance_intro {
+    width: 85%;
+    position: static;
+    margin-bottom: 25px;
+  }
+
+  .gone_quote {
+    width: 80%;
+    position: static;
+    margin: 0 0 45px 20px;
+  }
+
+  .year_passed {
+    width: 85%;
+    position: static;
+    margin-bottom: 55px;
+  }
+
+  .people_said {
+    width: 100%;
+    position: static;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .forever_quote {
+    width: 90%;
+    position: static;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  /* SECTION 8 */
+
+  .ending {
+    min-height: auto;
+    padding: 0;
+    position: relative;
+  }
+
+  .ending_img {
+    width: 100%;
+    position: static;
+  }
+
+  .ending_text {
+    padding: 32px 28px 42px;
+  }
+
+  .ending_paragraph {
+    width: 100%;
+    position: static;
+    margin:0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .the_end {
+    width: auto;
+    position: static;
+    margin: 22px 8% 0 auto;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: right;
+  }
+
+  /* FOOTER */
+
+  .site-footer {
+    width: 100%;
+    padding: 35px 25px 30px;
+  }
+
+  .site-footer p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .ai-credit {
+    margin-top: 15px;
+  }
 }
