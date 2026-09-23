@@ -5,9 +5,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   background-color: #EFE8DC;
@@ -896,7 +893,7 @@ img {
 
 /* ---------------- MOBILE ---------------- */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
 
   /* HEADER */
   .site-header {
